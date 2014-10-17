@@ -1,0 +1,4 @@
+- find $BUNDLE_PATH is not worked. it return null.why?
+- Question: What does pathForResource return for a file that doesn't exist? it is nil
+- how to close app in the ios5 simulator? ctr+shift+h can not do this
+- the simulator at last said that it is still using.but i close it.why?
