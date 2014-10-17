@@ -13,10 +13,11 @@ class ViewController: UIViewController {
     @IBAction func rootViewTapped(sender: UITapGestureRecognizer) {
         
         if UITapGestureRecognizer.accessibilityActivate()==false{
-//            quotationTextView.editable = false
-            displayRandomQuote()
+            quotationTextView.editable = true
+            
         }else{
-//            quotationTextView.editable = true
+            displayRandomQuote()
+            quotationTextView.editable = false
         }
     }
     
